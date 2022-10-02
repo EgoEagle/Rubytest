@@ -25,5 +25,12 @@ puts add(4,5.5)
 puts add("hello"," world")
 
 if 1 > 3
-     puts "1"
+     puts 1;
+
+elsif 3 > 1
+     puts 2;
+end
+
+if "c" > "a"
+     puts "c";
 end
