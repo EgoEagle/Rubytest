@@ -23,3 +23,7 @@ end
 puts add(3,4)
 puts add(4,5.5)
 puts add("hello"," world")
+
+if 1 > 3
+     puts "1"
+end
