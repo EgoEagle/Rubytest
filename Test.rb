@@ -56,3 +56,10 @@ key = {
 puts key["A"]
 key["B"] = "A"
 puts key["B"]
+
+index = 1
+
+while index != 10 
+     puts index
+     index += 1
+end
