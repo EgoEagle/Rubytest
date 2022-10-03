@@ -44,3 +44,13 @@ when "Sunday"
      puts "Rest"
 
 end
+
+#Dictionary
+
+key = {
+     "A" => 33141,
+     "B" => 84128,
+     "C" => 321818
+}
+
+puts key["A"]
