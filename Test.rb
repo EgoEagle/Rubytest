@@ -54,3 +54,5 @@ key = {
 }
 
 puts key["A"]
+key["B"] = "A"
+puts key["B"]
