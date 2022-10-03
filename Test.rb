@@ -34,3 +34,13 @@ end
 if "c" > "a"
      puts "c";
 end
+
+day = "Sunday"
+
+case day
+when "Monday"
+     puts "Work"
+when "Sunday"
+     puts "Rest"
+
+end
