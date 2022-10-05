@@ -73,3 +73,16 @@ sub2 = sub1.sub("wolfgang") {|o| o.reverse}
 
 puts sub2;
 puts str.index(/seus/);
+
+# include? boolean if string includes substring
+puts sub2.include? "flow"
+
+x = "12"
+y = "12"
+
+if x == y 
+     puts x
+else 
+     puts "13"
+end
+     
