@@ -67,5 +67,9 @@ index = 1
 str = "Amadeus , Amadeus  ,wolfgang";
 str[4,10] = "Steins";
 puts str;
-sub1 = str.sub(/Amad/,"Gate");
+sub1 = str.sub("Amad","Gate"); #replaces first occurence # use "" or //
 puts sub1;
+sub2 = sub1.sub("wolfgang") {|o| o.reverse}
+
+puts sub2;
+puts str.index(/seus/);
