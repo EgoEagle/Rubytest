@@ -65,5 +65,5 @@ index = 1
 #end
 
 str = "Amadeus Wolfgang";
-sub1 = str[/A..s/];
-puts sub1;
+str[4,10] = "Steins";
+puts str;
