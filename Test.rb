@@ -64,6 +64,6 @@ index = 1
 #     index += 1
 #end
 
-str = "Humpty Dumpty";
-sub1 = str[7,4] ;
+str = "Amadeus Wolfgang";
+sub1 = str[/A..s/];
 puts sub1;
