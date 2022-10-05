@@ -53,13 +53,17 @@ key = {
      "C" => 321818
 }
 
-puts key["A"]
-key["B"] = "A"
-puts key["B"]
+puts key["A"];
+key["B"] = "A";
+puts key["B"];
 
 index = 1
 
-while index != 10 
-     puts index
-     index += 1
-end
+#while index != 10 
+#     puts index
+#     index += 1
+#end
+
+str = "Humpty Dumpty";
+sub1 = str[7,4] ;
+puts sub1;
