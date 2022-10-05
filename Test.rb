@@ -64,6 +64,8 @@ index = 1
 #     index += 1
 #end
 
-str = "Amadeus Wolfgang";
+str = "Amadeus , Amadeus  ,wolfgang";
 str[4,10] = "Steins";
 puts str;
+sub1 = str.sub(/Amad/,"Gate");
+puts sub1;
