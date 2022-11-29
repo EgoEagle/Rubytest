@@ -18,7 +18,6 @@ Prawn::Document.generate("implicit.pdf") do
           text "absolute left: #{bounds.absolute_left.to_f.round(2)}"
           text "absolute right: #{bounds.absolute_right.to_f.round(2)}"
           text "AAAAAAAAAAAAAAAAAAAAAAAA"
-          text "AAAAAAAAAAAAAAAAAAAAAAAA"
 
      end
          bounding_box([250, cursor - 300], width: 200, height: 200) do
