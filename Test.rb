@@ -21,7 +21,6 @@ Prawn::Document.generate("implicit.pdf") do
      end
          bounding_box([250, cursor - 300], width: 200, height: 200) do
           text 'This bounding box bounds:'
-          move_down 5
           print_coordinates
           transparent(0.5) { stroke_bounds }
          end
