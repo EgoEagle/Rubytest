@@ -53,9 +53,7 @@ Prawn::Document.generate("implicit.pdf") do
                text "Blue Card"
           end
 
-          grid(0, 7).bounding_box do
-               text "Silver Card"
-          end
+
 
 
 
