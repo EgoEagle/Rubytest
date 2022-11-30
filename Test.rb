@@ -49,9 +49,7 @@ Prawn::Document.generate("implicit.pdf") do
                text "Certificate Name"
           end
 
-          grid(0, 6).bounding_box do
-               text "Blue Card"
-          end
+
 
 
 
